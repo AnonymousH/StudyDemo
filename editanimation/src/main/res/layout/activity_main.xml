@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:gravity="center"
+    android:background="#eeeeee"
+    android:id="@+id/layout_mainm"
+    android:orientation="horizontal"
+    tools:context="com.example.editanimation.MainActivity">
+
+
+
+<com.example.editanimation.view.AnimEditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/anim_edit"
+    android:background="#ffffff"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="填写发动机型号"
+        android:textSize="14sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:background="@null"
+        />
+
+
+</com.example.editanimation.view.AnimEditText>
+
+    <com.example.editanimation.view.AnimEditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/anim_edit2"
+    android:background="#ffffff"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="填写发动机型号"
+        android:textSize="14sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:background="@null"
+        />
+
+
+</com.example.editanimation.view.AnimEditText>
+
+
+
+
+</LinearLayout>
